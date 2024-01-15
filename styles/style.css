@@ -11,6 +11,20 @@
     max-width: 1440px;
     margin: 0 auto;
 }
+.prymari-btn{
+    width: 174px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+
+}
+.prymari-btn a{
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
 
 /* navber section  */
 .nav-title h2{
@@ -53,6 +67,61 @@ nav{
 }
 
 
+/* banner section styles */
+
+.banner-text h1{
+    color: #FFF;
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.banner-text p{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.banner-txt-area{
+    padding-top: 170px;
+    text-align: center;
+    
+}
+.banner-text{
+    width: 730px;
+    margin: 0 auto;
+
+}
+.banner-input{
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+#input-field{
+    width: 174px;
+    height: 52px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 18px;
+    font-weight: 400;
+}
+#banner-area{
+    margin-top: 70px;
+    height: 620px;
+    border-radius: 16px;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/banner-bg.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, cover;
+
+    
+}
+
+
 
 
 
@@ -61,7 +130,9 @@ nav{
 
 
 /* responsive area  */
+
 /* foe tablet size devices */
+
 @media screen and (min-width: 600px) and (max-width: 982px) {
     *{
         box-sizing: border-box;
@@ -82,11 +153,49 @@ nav{
         margin-top: 35px;
         padding: 0px 20px 0px 15px;
     }
+
+        /* banner */
+
+        .banner-text h1{
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+        .banner-text p{
+            font-size: 18px;
+        }
+        .banner-txt-area{
+            padding-top: 50px;
+        }
+        .banner-text{
+            width: 100%;
+            padding: 5px;
+        }
+        .banner-input{
+            flex-direction: column;
+        }
+        #input-field{
+            width: 265px;
+            font-size: 16px;
+        }
+        #banner-area{
+            margin-top: 40px;
+            margin-left: 10px;
+            margin-right: 10px;
+            height: 600px;
+            background-position: bottom;
+        }
+        .prymari-btn{
+            width: 265px;
+        }
 }
+
+/* for small devices like mobile phone */
+
 @media screen and (max-width: 600px) {
     *{
         box-sizing: border-box;
     }
+    /* navbar */
     #nav-list{
         display: none;
     }  
@@ -103,4 +212,38 @@ nav{
         margin-top: 30px;
         padding: 0px 15px 0px 10px;
     }
+
+    /* banner */
+    .banner-text h1{
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .banner-text p{
+        font-size: 15px;
+    }
+    .banner-txt-area{
+        padding-top: 45px;
+    }
+    .banner-text{
+        width: 100%;
+        padding: 5px;
+    }
+    .banner-input{
+        flex-direction: column;
+    }
+    #input-field{
+        width: 265px;
+        font-size: 16px;
+    }
+    #banner-area{
+        margin-top: 40px;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 600px;
+        background-position: bottom;
+    }
+    .prymari-btn{
+        width: 265px;
+    }
+
 }
