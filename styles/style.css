@@ -371,6 +371,10 @@ nav{
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
 }
+
+/* deals and discount section */
+
+
 .p-text{
     display: flex;
     gap: 30px;
@@ -417,21 +421,16 @@ nav{
 
 }
 .discount-text2{
-    width: 600px;
+    padding: 40px;
+    max-width: 600px;
     height: 400px;
     border-radius: 16px;
     border: 2px solid #FFF;
     background: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(2.5px);
-
-}
-.discount-text3{
-    width: 600px;
-    height: 400px;
-    border-radius: 16px;
-    border: 2px solid #FFF;
-    background: rgba(255, 255, 255, 0.80);
-    backdrop-filter: blur(2.5px);
+    position: relative;
+    top: 115px;
+    left: 130px;
 
 }
 .discount-bg1{
@@ -440,6 +439,33 @@ nav{
     background-size: cover;
     height: 630px;
     border-radius: 10px;
+    margin-bottom: 20px;
+}
+.discount-bg2{
+    background-image: url(../images/bbgg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 630px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.deals-text{
+    margin-top: 70px;
+}
+.deals-text h1{
+    color: #131318;
+    text-align: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.deals-text p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
 }
 
 
@@ -574,6 +600,45 @@ nav{
         #gcard{
             height: 330px;
         }
+            /* deals ans discount section */
+
+    .p-text{
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+    }
+    #all-text h2{
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    #all-text p{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    #all-text h4{
+        font-size: 17px;
+        margin-bottom: 18px;
+    }
+    #deals-btn{
+        width: 130px;
+        height: 45px;
+    }
+    .discount-text1, .discount-text2{
+        width: 95%;
+        position: relative;
+        top: 180px;
+        left: 70px;
+        
+    
+    }
+    #deals-id{
+        margin: 0px 10px 0px 10px;
+    }
+    .discount-bg1{
+        background-position: bottom;
+    }
+    .discount-bg2{
+        background-position: bottom;
+    }
 }
 
 /* for small devices like mobile phone */
@@ -752,5 +817,49 @@ nav{
     }
     #gcard{
         height: 330px;
+    }
+
+    /* deals ans discount section */
+
+    .deals-text h1{
+        font-size: 25px;
+    }
+    .p-text{
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+    }
+    #all-text h2{
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    #all-text p{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    #all-text h4{
+        font-size: 17px;
+        margin-bottom: 18px;
+    }
+    #deals-btn{
+        width: 130px;
+        height: 45px;
+    }
+    .discount-text1, .discount-text2{
+        width: 95%;
+        height: 420px;
+        position: relative;
+        top: 180px;
+        left: 10px;
+        
+    
+    }
+    #deals-id{
+        margin: 0px 10px 0px 10px;
+    }
+    .discount-bg1{
+        background-position: bottom;
+    }
+    .discount-bg2{
+        background-position: bottom;
     }
 }
