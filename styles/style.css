@@ -114,7 +114,7 @@ nav{
     margin-top: 70px;
     height: 620px;
     border-radius: 16px;
-    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../images/banner-bg.png);
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../images/banner-bg.png");
     background-repeat: no-repeat, no-repeat;
     background-size: cover, cover;
 
@@ -434,7 +434,7 @@ nav{
 
 }
 .discount-bg1{
-    background-image: url(../images/bbgg1.png);
+    background-image: url("../images/bg1.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 630px;
@@ -442,7 +442,7 @@ nav{
     margin-bottom: 20px;
 }
 .discount-bg2{
-    background-image: url(../images/bbgg2.png);
+    background-image: url("../images/bg2.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 630px;
