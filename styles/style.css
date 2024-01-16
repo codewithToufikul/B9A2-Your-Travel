@@ -467,6 +467,61 @@ nav{
     font-weight: 400;
     margin-bottom: 40px;
 }
+.btnn{
+    display: flex;
+    justify-content: center;
+}
+
+/* perfact place area */
+
+.perfact-pace{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.perfact-text h1{
+    color: #131318;
+    font-size: 44px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.perfact-text p{
+    color: #5A5A5D;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.perfact-text > ul > li{
+    color: #131318;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.perfact-text > ul{
+    padding: 40px;
+}
+.perfact-text{
+    width: 50%;
+}
+.perfact-image{
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.mountain{
+    position: absolute;
+    margin-top: 10px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+
 
 
 
@@ -862,4 +917,28 @@ nav{
     .discount-bg2{
         background-position: bottom;
     }
+    #package-btn{
+        width: 160px;
+    }
+
+    /* perfact place area */
+
+    .perfact-pace{
+        flex-direction: column;
+        margin: 80px 10px 0px 10px;
+        gap:20px;
+    }
+    .perfact-image img{
+        width: 100%;
+        height: auto;
+    }
+    .perfact-text h1{
+        color: #131318;
+        font-size: 24px;
+        font-weight: 800;
+    }
+    .perfact-text{
+        width: 100%;
+    }
+
 }
