@@ -476,8 +476,9 @@ nav{
 
 .perfact-pace{
     display: flex;
-    justify-content: space-between;
-    margin-top: 80px;
+    justify-content: space-around;
+    gap: 50px;
+    margin-top: 100px;
 }
 .perfact-text h1{
     color: #131318;
@@ -501,10 +502,10 @@ nav{
     padding: 40px;
 }
 .perfact-text{
-    width: 50%;
+    width: 60%;
 }
 .perfact-image{
-    width: 100%;
+
     height: fit-content;
     position: relative;
     display: flex;
@@ -512,6 +513,8 @@ nav{
     align-items: center;
     justify-content: center;
     text-align: center;
+
+    
 }
 .mountain{
     position: absolute;
@@ -521,16 +524,151 @@ nav{
     font-weight: 800;
 }
 
+/* newslatter area */
 
+.form > input, button{
+    display: block;
+} 
+.form h3{
+    color: #131318;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.form p{
+    color: #5A5A5D;
+    font-size: 20px;
+    font-weight: 400;
+    border-bottom: 2px solid rgba(19, 19, 24, 0.10);
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+.form > input{
+    width: 450px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 18px;
+    padding: 5px 0px 5px 15px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.form-btn{
+    width: 450px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+.form-btn a{
+    color: #FFF;
+}
+.form{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 40%;
+    height: 420px;
+    padding: 30px 50px 30px 50px;
+}
+.travel-discount{
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    padding: 20px;
+    position: absolute;
+    bottom: 45px;
+    left: 340px;
+}
+.travel-discount p{
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+.travel-discount h2{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+.travel-photo{
+    position: relative;
+}
+.newslattter{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
 
+/* footer section */
 
-
-
-
+.containerr{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.f-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.f-title h2{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.f-sp{
+    color: #FF5400;
+}
+.f-text p{
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.fa-icon{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+.fa-icon > p > i{
+    font-size: 25px;
+}
+.f-text{
+    border-bottom: 2px solid rgba(2, 2, 92, 0.05);
+    
+}
+.f-copy{
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    padding: 100px 0px 100px 0px;
+    margin-top: 100px;
+}
 
 
 
 /* responsive area  */
+
+
+
 
 /* foe tablet size devices */
 
@@ -693,6 +831,62 @@ nav{
     }
     .discount-bg2{
         background-position: bottom;
+    }
+        /* news latter area  */
+
+        .newslattter{
+            margin: 80px 10px 0px 10px;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .form{
+            width: 100%;
+            padding: 20px;
+        }
+        .form > input{
+            width: 100%;
+            font-size: 16px;
+        }
+        .form-btn{
+            width: 100%;
+            font-size: 17px;
+            font-weight: 400;
+    
+        }
+        .travel-photo img{
+            width: 100%;
+        }
+        .travel-discount{
+            width: 215px;
+            height: 80px;
+            bottom: 35px;
+            left: 140px;
+        }
+        .travel-discount p{
+            font-size: 16px;
+        }
+        .travel-discount h2{
+            font-size: 22px;
+        }
+
+            /* perfact place area */
+
+    .perfact-pace{
+        flex-direction: column;
+        margin: 80px 10px 0px 10px;
+        gap:20px;
+    }
+    .perfact-image img{
+        width: 100%;
+        height: auto;
+    }
+    .perfact-text h1{
+        color: #131318;
+        font-size: 24px;
+        font-weight: 800;
+    }
+    .perfact-text{
+        width: 100%;
     }
 }
 
@@ -940,5 +1134,44 @@ nav{
     .perfact-text{
         width: 100%;
     }
+    
+
+    /* news latter area  */
+
+    .newslattter{
+        margin: 80px 10px 0px 10px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .form{
+        width: 100%;
+        padding: 20px;
+    }
+    .form > input{
+        width: 100%;
+        font-size: 16px;
+    }
+    .form-btn{
+        width: 100%;
+        font-size: 17px;
+        font-weight: 400;
+
+    }
+    .travel-photo img{
+        width: 100%;
+    }
+    .travel-discount{
+        width: 215px;
+        height: 80px;
+        bottom: 35px;
+        left: 130px;
+    }
+    .travel-discount p{
+        font-size: 16px;
+    }
+    .travel-discount h2{
+        font-size: 22px;
+    }
+    
 
 }
